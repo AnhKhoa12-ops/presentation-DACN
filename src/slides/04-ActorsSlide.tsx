@@ -1,0 +1,2 @@
+import { InfoGrid, SlideHeading } from './SlidePrimitives'
+export function ActorsSlide() { return <><SlideHeading kicker="CHƯƠNG 2 · PHÂN TÍCH NGHIỆP VỤ">Đối tượng và vai trò</SlideHeading><InfoGrid items={[{ icon: '👑', title: 'Admin', text: 'Theo dõi doanh thu, chi phí, hiệu quả kinh doanh và cấu hình hệ thống.' }, { icon: '📦', title: 'Quản lý kho', text: 'Quản lý sản phẩm, tồn kho, nhà cung cấp, nhập hàng và cảnh báo.' }, { icon: '🧾', title: 'Nhân Viên', text: 'Bán hàng, thanh toán, đổi trả và chốt ca của mình.' }]} /></> }

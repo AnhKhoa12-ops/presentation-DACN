@@ -1,0 +1,2 @@
+import { InfoGrid, SlideHeading } from './SlidePrimitives'
+export function ResultsSlide() { return <><SlideHeading kicker="CHƯƠNG 5 · ĐÁNH GIÁ VÀ KẾT LUẬN">Kết quả đạt được</SlideHeading><InfoGrid items={[{ icon: '✅', title: 'Website trình chiếu', text: 'Có mục lục, điều hướng bàn phím, nút trước/sau, progress và fullscreen.' }, { icon: '🖥️', title: 'Demo sản phẩm', text: 'Minh họa dashboard và các nghiệp vụ chính của web-client.' }, { icon: '🔐', title: 'Thiết kế có hệ thống', text: 'Phân tích vai trò, quy trình, module, kiến trúc và dữ liệu rõ ràng.' }]} /></> }
